@@ -39,7 +39,8 @@ header > h1 {
   text-transform: uppercase;
 }
 header > p {
-  width: 500px;
+  /* width: 500px; */
+  width: 100%;
   margin: auto;
 }
 header > nav > ul {
@@ -147,7 +148,7 @@ section > section > #palavra_chave {
 footer > p {
   background-color: black;
   color: white;
-  width: 850px;
+  width: 100%;
   margin: auto;
 }
 @media (max-width: 550px) {
