@@ -8,3 +8,4 @@ ola! mundo, primeiro repositorio, o meu nome é Izaias.
 2-site: <a href="projeto.2/index.html">Desfio do Cordel</a>
 
 3-site: <a href="projeto.3/index.html"> site mobile first</a>
+Atenção: o conteúdo do 3-site foi criado para treina responsividade do site.

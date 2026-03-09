@@ -1,21 +1,4 @@
 @charset "uft-8";
-/*
---------------------------
-tela pq: 
-Max Width: 600px
-tela de tabet: 
-Min Width: 600px
-Max Width: 768px
-tela de tabet grande
-Min Width: 768px
-Max Width: 992px
-tela media
-Min Width: 992px
-Max Width: 1200px
-tela grande
-min width: 1200px
-----------------------------
- */
 /* tela pq */
 * {
   margin: 0px;
@@ -57,6 +40,10 @@ li {
 }
 header > main > ul:hover li {
   display: block;
+  transition: 0.5s;
+}
+header > main > ul > li:hover {
+  padding: 10px;
 }
 aside {
   padding: 20px;

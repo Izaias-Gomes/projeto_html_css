@@ -1,0 +1,14 @@
+@charset "uft-8";
+/* tela de tabet*/
+header > main {
+  text-align: center;
+}
+header > main > ul > li {
+  display: inline-block;
+}
+header > main > ul > li#menu {
+  display: none;
+}
+header > main > ul:hover > li {
+  display: inline-block;
+}
