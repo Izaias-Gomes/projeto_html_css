@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--cor2);
+}
+:root {
+  /* paleta de cores */
+  --cor1: #3a400b;
+  --cor2: #bfa58e;
+  --cor3: #260f01;
+  --cor4: #8c6751;
+  --cor5: #f2f2f2;
+}
+/* propriedade de cabeçalho*/
+header {
+  background-color: var(--cor4);
+}
+/* propriedade de título*/
+header > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* propriedade de menu*/
+header > main {
+  text-align: center;
+  padding-bottom: 10px;
+}
+header > main > ul > li {
+  list-style-type: none;
+  border: solid black 2px;
+  margin: 5px 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: var(--cor2);
+}
+header > main > ul > li#imagem_menu {
+  display: block;
+}
+header > main > ul > li {
+  display: none;
+}
+
+/* menu aparece quando clica no menu */
+ul:hover li {
+  display: block;
+}
+
+ul li:hover {
+  border: solid 2px var(--cor5);
+  background-color: var(--cor1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.5s;
+}
+ul li:hover a {
+  color: var(--cor5);
+}
+header > main > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+/* propriedade de texto*/
+section {
+  width: 90vw;
+  margin: auto;
+  background-color: var(--cor5);
+  padding: 10px;
+}
+section > h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+section > p {
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 2em;
+  text-indent: 20px;
+}
