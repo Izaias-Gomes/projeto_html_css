@@ -1,0 +1,33 @@
+@charset "UFT-8";
+header > main > ul > li#imagem_menu {
+  display: none;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header > h1 {
+  padding-left: 30px;
+}
+header > main {
+  padding-bottom: 0px;
+  padding-right: 30px;
+}
+header > main > ul > li {
+  display: inline-block;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header > main > ul:hover > li {
+  display: inline-block;
+}
+header > main > ul > li:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+section {
+  width: 600px;
+}

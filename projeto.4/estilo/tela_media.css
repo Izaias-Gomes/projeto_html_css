@@ -1,0 +1,19 @@
+header > main > ul > li#imagem_menu {
+  display: none;
+}
+header > main > ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+header > main > ul > li {
+  display: block;
+  flex: 1 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header > main > ul > li:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
