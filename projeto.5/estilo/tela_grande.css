@@ -1,0 +1,22 @@
+@charset "Utf-8";
+.paragrafo_principal {
+  width: 700px;
+  margin: auto;
+}
+.texto_1 {
+  margin-bottom: 30px;
+}
+#parte1,
+#parte2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#texto2,
+#texto3 {
+  flex-basis: 40%;
+}
+img {
+  margin: 0px;
+}

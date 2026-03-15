@@ -1,0 +1,18 @@
+@charset "UFT-8";
+section#parte1 {
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
+p {
+  margin: auto;
+  margin: 10px 20px;
+}
+div#video {
+  margin: auto;
+}
+@media (max-widht: 650px) {
+  p {
+    width: 600px;
+    margin: auto;
+  }
+}
